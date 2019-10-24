@@ -1,0 +1,15 @@
+{
+ "name": "newsv",
+ "version": "1.0.0",
+ "description": "An application to mock services",
+ "main": "index.js",
+ "scripts": {
+  "start": "node src/index.js"
+ },
+ "author": "Dustin Ewers",
+ "license": "MIT",
+ "dependencies": {
+  "mountebank": "^2.0.0",
+  "node-fetch": "^2.6.0"
+ }
+}

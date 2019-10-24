@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\VA20093785\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.3.7
+3 info using node@v10.13.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle newsv@1.0.0~prestart: newsv@1.0.0
+6 silly lifecycle newsv@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle newsv@1.0.0~start: newsv@1.0.0
+8 verbose lifecycle newsv@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle newsv@1.0.0~start: PATH: C:\Users\VA20093785\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\Office_MAS\app\node_modules\.bin;D:\app\Administrator\product\11.2.0\client_2\bin;D:\app\Administrator\product\11.2.0\client_1\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Maven\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files\nodejs\;C:\Windows\System32;C:\Program Files\curl-7.66.0_2-win64-mingw\curl-7.66.0-win64-mingw\bin;C:\Users\VA20093785\Downloads\curl-7.66.0_2-win64-mingw\curl-7.66.0-win64-mingw\bin\curl.exe;C:\Users\VA20093785\Downloads\1\mountebank-v2.1.0-win-x64\mountebank-v2.1.0-win-x64\mountebank\bin;C:\Program Files\mountebank-v2.1.0-win-x64;C:\Program Files\mountebank-v2.1.0-win-x64\mountebank\bin;C:\Users\VA20093785\AppData\Local\Programs\Git\bin;C:\Windows\System32;C:\Users\VA20093785\AppData\Local\Programs\Git\cmd
+10 verbose lifecycle newsv@1.0.0~start: CWD: D:\Office_MAS\app
+11 silly lifecycle newsv@1.0.0~start: Args: [ '/d /s /c', 'node src/index.js' ]
+12 silly lifecycle newsv@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle newsv@1.0.0~start: Failed to exec start script
+14 verbose stack Error: newsv@1.0.0 start: `node src/index.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\VA20093785\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:222:16)
+14 verbose stack     at EventEmitter.emit (events.js:182:13)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\VA20093785\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at ChildProcess.emit (events.js:182:13)
+14 verbose stack     at maybeClose (internal/child_process.js:962:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:251:5)
+15 verbose pkgid newsv@1.0.0
+16 verbose cwd D:\Office_MAS\app
+17 error Windows_NT 10.0.14393
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\VA20093785\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v10.13.0
+20 error npm  v3.3.7
+21 error code ELIFECYCLE
+22 error newsv@1.0.0 start: `node src/index.js`
+22 error Exit status 1
+23 error Failed at the newsv@1.0.0 start script 'node src/index.js'.
+23 error This is most likely a problem with the newsv package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node src/index.js
+23 error You can get their info via:
+23 error     npm owner ls newsv
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
